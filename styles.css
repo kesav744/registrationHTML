@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(0deg, rgb(131, 168, 185) 0%, rgb(116, 47, 150) 100%);
+  background-attachment: fixed;  
+  margin: 0px;
+}
+
+
+
+#form {
+  background-color: azure;
+  width: 400px;
+  border-radius: 6px;
+  margin: 10vh auto 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(148, 2, 221);
+  margin-top: -8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+.input-group input {
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgb(131, 168, 185);
+  border-radius: 5px;
+}
+
+.input-group.okay input {
+  border: 1px solid rgb(14, 145, 101);
+  background-color: rgb(228, 240, 236);
+}
+
+.input-group.notokay input {
+  border: 1px solid red;
+  background-color: rgb(230, 214, 215);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.input-group input:focus {
+  outline: 0;
+}
+
+#form button {
+  background-color: rgb(148, 2, 221);
+  width: 100%;
+  border: 1px solid rgb(148, 2, 221);
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+#form button:hover {
+  background-color: rgb(156, 79, 194);
+  color: black;
+}
